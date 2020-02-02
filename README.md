@@ -1,5 +1,5 @@
-# Discord Bot Python File
-Read this as a raw file! This is a Python file that I wrote for a Discord bot that accepts user commands and also performs different server related functions. This is the only file that you will need in order to get a bot running on your server, all you have to do is add your bot token. If you do not already have a Discord bot created, please see the first set of instructions below. If you do already have a bot created and just want to add the Python file, please see the second set of instructions.
+# Discord Bot Python File - Uses discord.py
+Read this as a raw file! This is a Python file that I wrote for a Discord bot using the discord.py module. The bot accepts user commands and also performs different server related functions. This is the only file that you will need in order to get a bot running on your server, all you have to do is add your bot token. If you do not already have a Discord bot created, please see the first set of instructions below. If you do already have a bot created and just want to add the Python file, please see the second set of instructions.
 
 ---HOW TO CREATE A BOT---
 1. Go to the Discord website. https://discordapp.com/
@@ -14,6 +14,8 @@ Read this as a raw file! This is a Python file that I wrote for a Discord bot th
 10. This is the final and most important step! The bot tab has a spot under the bot username that is called TOKEN. Copy this token and paste it into the Python file at the bottom where it says to input your token. This is how the Python file interacts with your bot and server. Without it, the bot just sits there in an idle state and cannot do anything specified in the Python file.
 
 ---USING THE PYTHON FILE WITH YOUR BOT---
+You must have the discord.py module installed for this to work! You can find installation instructions at the link below... https://discordpy.readthedocs.io/en/latest/intro.html#installing
+
 1. Ensure that your bot token has been added to the very bottom of the Python file where it says client.run('TOKEN GOES HERE').
 2. Once you run the Python file, it will tell you in the terminal that your bot is online. Once you see that message appear, the bot can now do everything that is defined within the Python file.
 3. Simply stop running the file to have your bot go offline.
